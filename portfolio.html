@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>photo_style_two</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">SUSU<span class="logo_colour">_2038</span></a></h1>
+          <h2>welcome</h2>
+        </div>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li><a href="homework5.html">Home</a></li>
+          <li class="selected"><a href="about.html">About Me</a></li>
+          <li><a href="portfolio.html">My Friends</a></li>
+          <li><a href="blog.html">Plog</a></li>
+          <li><a href="#">My Work</a>
+            <ul>
+              <li><a href="#">Work One</a></li>
+              <li><a href="#">Work Two</a>
+            </ul>
+          </li>
+          <li><a href="contact.php">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div id="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/10.jpg" alt="photo_one" /></li>
+            <li><img width="450" height="450" src="images/11.jpg" alt="photo_two" /></li>
+            <li><img width="450" height="450" src="images/12.jpg" alt="photo_three" /></li>
+            <li><img width="450" height="450" src="images/13.jpg" alt="photo_four" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <h1>My Friends</h1>
+        <p>UU-My college classmate is also my roommate. After understanding, we have many interests and hobbies, and we live very close, so we become close friends. We often travel together in college and go out together on holidays.</p>
+        <p>Staff meal-This is my boyfriend. I've been with him for 764 days. Our personalities are quite different. I am a very cheerful girl, but he is very shy. Surprisingly, we can talk very well, and many ideas can collide. I am easily angry and emotional in love. Although he is younger than me, he can always tolerate me and care about me like a big brother.Although I don't know if I can be together for a long time, there are many, many years in the future. But he is a man who deserves all the beauty. May he be pure and happy all his life.</p>
+        <p></p>
+      </div>
+    </div>
+    <footer>
+      <p>&copy;SUSU LIFE|<a href="http://www.css3templates.co.uk"> design from susu2038</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
